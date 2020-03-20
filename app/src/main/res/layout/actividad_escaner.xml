@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+    tools:context=".MiEscaner"
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="@string/texCamara"
+        android:textColor="@color/blanco" />
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="686dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="-1dp"
+        tools:ignore="UnknownId"></FrameLayout>
+
+</RelativeLayout>

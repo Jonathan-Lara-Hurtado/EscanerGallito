@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GallitoEscaner</string>
+    <string name="titulo_app">Gallito Escaner</string>
+    <string name="label_ip">Direccion IP : </string>
+    <string name="label_puerto">Puerto : </string>
+    <string name="btnConectarText">Conectar</string>
+    <string name="texCamara">¡Coloque su cámara sobre el código de barras en el cupón para escanear!</string>
+</resources>
