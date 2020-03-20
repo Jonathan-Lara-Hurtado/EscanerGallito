@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public  void run(){
-                for(int i=0;i<=10;i++){
+                for(int i=0;i<=100;i++){
                     final int value=i;
                     try {
                         Thread.sleep(100);
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                         public void run() {
                             progressBar.setProgress(value);
 
-                            if(progressBar.getProgress()==10){
+                            if(progressBar.getProgress()==100){
                                 /*
                                 * Refencias
                                 * https://wajahatkarim.com/2018/04/closing-all-activities-and-launching-any-specific-activity/
