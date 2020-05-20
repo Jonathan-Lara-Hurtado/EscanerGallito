@@ -8,22 +8,71 @@
     >
 
 
-    <TextView
-        android:id="@+id/textView"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:color/black"
-        android:gravity="center_horizontal"
-        android:padding="5dp"
-        android:text="@string/texCamara"
-        android:textColor="@color/blanco" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <FrameLayout
-        android:id="@+id/content_frame"
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="@string/texCamara"
+            android:textColor="@color/blanco" />
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="-1dp"
+            tools:ignore="UnknownId"></FrameLayout>
+
+
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="686dp"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="-1dp"
-        tools:ignore="UnknownId"></FrameLayout>
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/fondoSlash"
+        >
+
+
+        <Button
+            android:id="@+id/btnBusqueda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:background="@drawable/btn_redondo"
+            android:text="Busqueda" />
+
+        <Button
+            android:id="@+id/btnAgregar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:background="@drawable/btn_redondo"
+            android:text="Agregar" />
+
+        <Button
+            android:id="@+id/btnQuitar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:background="@drawable/btn_redondo"
+            android:text="Quitar" />
+
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>
 
 </RelativeLayout>
