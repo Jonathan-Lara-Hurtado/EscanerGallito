@@ -1,1 +1,1 @@
-Aplicacion Escaner para el punto de venta gallito
+## Aplicacion Escaner para el punto de venta gallito
