@@ -2,4 +2,4 @@
 
 **Aplicacion creada para:**
 
-[GitHub Pages](https://github.com/Jonathan-Lara-Hurtado/PuntoDeVentaGallito).
+[Punto de venta Gallito](https://github.com/Jonathan-Lara-Hurtado/PuntoDeVentaGallito).
